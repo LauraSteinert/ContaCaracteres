@@ -1,0 +1,12 @@
+/* Escreva um método chamado contaCaracteres que recebe como parâmetro um arranjo de arranjos de caracteres chamado palavras (o qual representa um conjunto de palavras)
+e deverá retornar o número total de caracteres presentes nesse arranjo de arranjos. */
+
+static int contaCaracteres(char [][]palavras){
+		int resultado = 0;
+		for(int i = 0; i<palavras.length; i++){
+			for(int j = 0; j<palavras[i].length;j++){
+				resultado++;
+			}
+		}
+		return(resultado);
+	}
